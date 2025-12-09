@@ -1,25 +1,26 @@
 # Quizz App — React
 
 A lightweight quiz application built with **React**.  
-Users can answer multiple-choice questions, track score, and restart quizzes through a simple and clean UI.
+The app loads all quiz questions from an external `.txt` file, displays them to the user, and calculates the final score.
 
 ---
 
 ## 🚀 Features
 
 ### ✅ Frontend (React)
-- Modern and responsive UI  
-- Displaying multiple-choice quiz questions  
-- Real-time score calculation  
-- Next question navigation  
+- Clean and responsive UI  
+- Renders questions loaded from a text file  
+- Multiple-choice answer selection  
+- Real-time score tracking  
+- "Next Question" flow  
 - Final results screen  
-- Option to restart the quiz  
+- Ability to restart the quiz  
 
-### 🎮 Quiz Logic
-- Questions stored locally in the app  
-- Randomized or sequential question flow  
-- Automatic answer validation  
-- Score tracking until quiz completion  
+### 📄 Question Loading (TXT File)
+- Questions are stored externally in a `.txt` file  
+- App reads and parses the file at runtime  
+- Easy to add, update, or remove questions without touching the code  
+- Simple format for questions & answers  
 
 ---
 
@@ -27,9 +28,17 @@ Users can answer multiple-choice questions, track score, and restart quizzes thr
 
 **Frontend:**  
 - React  
-- JavaScript  
 - Vite  
+- JavaScript  
 - CSS  
+
+---
+
+## 📁 Project Files
+
+- `questions.txt` — contains all quiz questions and possible answers  
+- `src/` — React components and logic  
+- `public/` — static assets  
 
 ---
 
